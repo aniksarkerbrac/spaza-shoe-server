@@ -77,4 +77,4 @@ app.get('/', (req, res) => {
     res.send('Hello spaza shoe')
 })
 
-app.listen(port);
+app.listen(process.env.PORT || port);
